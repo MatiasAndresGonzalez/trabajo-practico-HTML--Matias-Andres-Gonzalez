@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ES-es">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,108 +10,323 @@
     <meta name="keywords" content="tutorial, limpieza de pc, computadora de escritorio, tecnología">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(229, 229, 229), rgb(190, 249, 207));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+        text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        ol {
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        footer {
+            background-color: #b8e5d1;
+            color: #838383;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1 class="title">Cómo limpiar una <acronym title="Computadora Personal">PC</acronym> de escritorio por dentro paso a paso</h1>             
+    <h1 class="title">
+        Limpieza de <acronym title="Computadora Personal">PC</acronym>
+    </h1>
+
+    <header class="header">
+        <div class="logo">
+            <img src="assets/img/svgblanco.svg" alt="logo de pagina">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tabla.html">Paso a Paso</a></li>
+                <li><a href="aidiovisuales.html">Audiovisuales</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn"><button>Aprende Más</button></a>
     </header>
 
-    <p> <strong>Mantener y limpiar</strong> una PC de escritorio por dentro es fundamental para mejorar su rendimiento y reducir la posibilidad de avería. En este <em>artículo</em> te enseñamos cómo hacerlo paso a paso.
-    </p>
+    <h2 class="margin: 15px;">Cómo limpiar una PC de escritorio por dentro paso a paso</h2>
 
-    <img src="/assets/img/imagen1.jpg" alt="imagen ilustrativa de una PC de escritorio" width="800">
+    <article class="container">
 
-    <p>
+        <img class="image" src="assets/img/imagen1.jpg" alt="imagen ilustrativa de una PC de escritorio" width="600">
+        <p>
+            <strong>Mantener y limpiar</strong> una PC de escritorio por dentro es fundamental para mejorar
+            surendimiento y reducir la posibilidad de avería. En este <em>artículo</em> te enseñamos cómo hacerlo paso a
+            paso.
+        </p>
+
         <h2><b>¿Por qué limpiar la PC por dentro?</b></h2>
-        Limpiar el polvo de tu PC es sin duda una gran idea, sobre todo si tu PC no funciona como debería. El polvo obstruye los ventiladores internos y los orificios de ventilación, encargados de refrigerar el chasis de la PC y por lo tanto, sus componentes. Sucede lo mismo con el típico disipador de las tarjetas gráficas.
-        <br><br>
-        Si el polvo se acumula, la refrigeración interna no es correcta, lo que hace que aumente la temperatura interior. Esto provoca que los componentes bajen su rendimiento entre un 20 y un 50 %. En los casos más graves, el sobrecalentamiento puede llegar a provocar daños irreparables en el procesador, placa base, fuente de alimentación o tarjeta gráfica. Incluso el ruido de los ventiladores puede volverse ensordecedor.
-        <br><br>
-        El sobrecalentamiento influye en todas las tareas que puedas imaginar, desde un inicio de sesión tan lento como el caballo del malo hasta una navegación insufrible o la imposibilidad de jugar a juegos durante más de 10 minutos. Incluso nuestro ordenador se puede apagar por exceso de temperatura. La solución es simple: realizar un mantenimiento y limpieza cada 6 o 12 meses.
-        <br><br>
+        <p>
+            Limpiar el polvo de tu PC es sin duda una gran idea, sobre todo si tu PC no funciona como debería. El polvo
+            obstruye los ventiladores internos y los orificios de ventilación, encargados de refrigerar el chasis de la
+            PC y
+            por lo tanto, sus componentes. Sucede lo mismo con el típico disipador de las tarjetas gráficas.<br>
+            Si el polvo se acumula, la refrigeración interna no es correcta, lo que hace que aumente la temperatura
+            interior. Esto provoca que los componentes bajen su rendimiento entre un 20 y un 50 %. En los casos más
+            graves,
+            el sobrecalentamiento puede llegar a provocar daños irreparables en el procesador, placa base, fuente de
+            alimentación o tarjeta gráfica. Incluso el ruido de los ventiladores puede volverse ensordecedor.<br>
+            El sobrecalentamiento influye en todas las tareas que puedas imaginar, desde un inicio de sesión tan lento
+            como
+            el caballo del malo hasta una navegación insufrible o la imposibilidad de jugar a juegos durante más de 10
+            minutos. Incluso nuestro ordenador se puede apagar por exceso de temperatura. La solución es simple:
+            realizar un
+            mantenimiento y limpieza cada 6 o 12 meses.<br>
+        </p>
 
         <h2>¿Qué necesito para limpiar una PC por dentro?</h2>
-        Antes de empezar a limpiar ana PC de escritorio por dentro debes de asegurarte de disponer de las herramientas necesarias. No te preocupes, es un proceso bastante sencillo, no tiene pérdida. Sin embargo, hay que hacerlo de forma segura para no dañar ningún componente. Necesitarás lo siguiente:
-        <br><br>
-    </p>
 
-    <ul>
-    <li>
-        <b>Destornillador:</b> a diferencia de la limpieza de portátiles, para abrir una PC de escritorio bastará con que tengas a mano un destornillador de estrella de tamaño mediano. Si tienes un kit de destornilladores seguro que alguno de ellos te valdrá. <br><br>
-    </li>
-    <li>
-        <b>Muñequera antiestática:</b> la electricidad estática que está naturalmente presente en nuestro cuerpo puede dañar los componentes de nuestra pc, por ello se recomienda ponerse una pulsera de antiestática para evitar cualquier riesgo. También puedes optar por tocar una superficie metálica para librarte de la electricidad estática. <br><br>
-    </li>
-    <li>
-        <b>Aire comprimido:</b> el mejor aliado para limpiar el polvo de un ordenador es un bote de aire comprimido. Es un potente soplador que expulsa aire a presión, lo que es ideal a la hora de limpiar los componentes y extraer el polvo de cualquier rincón. <br><br>
-    </li>
-    <li>
-        <b>Paño de microfibra:</b> un paño atrapa polvo que no suelte pelusas será necesario para quitar las motas de polvo más voluminosas, así como limpiar la torre tanto por dentro como por fuera.<br><br>
-    </li>
-    <li>
-        <b>Brocha de cerdas suaves:</b> también es aconsejable tener un pincel o brocha de cerdas suave a mano. Esto nos permitirá extraer el polvo de rincones inaccesibles, como por ejemplo el ventilador del procesador.<br><br>
-    </li>
-    <li>
-        <b>Alcohol isopropílico:</b> para limpiar los componentes de forma más detallada, incluyendo los conectores, podemos utilizar alcohol isopropílico, el cual es adecuado para limpieza de dispositivos electrónicos. Para aplicarlo necesitarás unos hisopos/ bastoncillos de los oídos.<br><br></li>
-    <li>
-        <b>Pasta térmica:</b> cada cierto tiempo es aconsejable cambiar la pasta térmica de la CPU de tu PC. Este proceso tampoco es demasiado complicado, pero si es delicado, así que si no estás muy seguro no te aconsejo hacerlo.<br><br></li>
-    <li>
-        <b>Aspiradora:</b> también te podría venir bien una aspiradora de pequeño tamaño, como por ejemplo una de mano a baja potencia, para quitar las capas más gruesas de polvo. No te aconsejo usar un secador, y mucho menos con aire caliente. Esto expandirá el polvo y ensuciará más que otra cosa. <br><br></li>
-    </ul>
+        <p>
+            Antes de empezar a limpiar ana PC de escritorio por dentro debes de asegurarte de disponer de las
+            herramientas
+            necesarias. No te preocupes, es un proceso bastante sencillo, no tiene pérdida. Sin embargo, hay que hacerlo
+            de
+            forma segura para no dañar ningún componente. Necesitarás lo siguiente:<br>
+        </p>
 
-    <a href="https://www.mercadolibre.com.ar/" target="_blank"><img src="/assets/img/imagen2.jpg" alt="puedes comprar herramientas desde MercadoLibre" width="300"></a><br><br>
+        <a href="https://www.mercadolibre.com.ar/" target="_blank"><img class="image2" src="/assets/img/imagen2.jpg"
+                alt="puedes comprar herramientas desde MercadoLibre" width="600">Puedes comprar herramientas en
+            MercadoLibre</a>
+        <ul>
+            <li>
+                <b>Destornillador:</b> a diferencia de la limpieza de portátiles, para abrir una PC de escritorio
+                bastará con que tengas a mano un destornillador de estrella de tamaño mediano. Si tienes un kit de
+                destornilladores seguro que alguno de ellos te valdrá. <br>
+            </li>
+            <li>
+                <b>Muñequera antiestática:</b> la electricidad estática que está naturalmente presente en nuestro cuerpo
+                puede dañar los componentes de nuestra pc, por ello se recomienda ponerse una pulsera de antiestática
+                para evitar cualquier riesgo. También puedes optar por tocar una superficie metálica para librarte de la
+                electricidad estática. <br>
+            </li>
+            <li>
+                <b>Aire comprimido:</b> el mejor aliado para limpiar el polvo de un ordenador es un bote de aire
+                comprimido. Es un potente soplador que expulsa aire a presión, lo que es ideal a la hora de limpiar los
+                componentes y extraer el polvo de cualquier rincón. <br>
+            </li>
+            <li>
+                <b>Paño de microfibra:</b> un paño atrapa polvo que no suelte pelusas será necesario para quitar las
+                motas de polvo más voluminosas, así como limpiar la torre tanto por dentro como por fuera.<br>
+            </li>
+            <li>
+                <b>Brocha de cerdas suaves:</b> también es aconsejable tener un pincel o brocha de cerdas suave a mano.
+                Esto nos permitirá extraer el polvo de rincones inaccesibles, como por ejemplo el ventilador del
+                procesador.<br>
+            </li>
+            <li>
+                <b>Alcohol isopropílico:</b> para limpiar los componentes de forma más detallada, incluyendo los
+                conectores, podemos utilizar alcohol isopropílico, el cual es adecuado para limpieza de dispositivos
+                electrónicos. Para aplicarlo necesitarás unos hisopos/ bastoncillos de los oídos.<br>
+            </li>
+            <li>
+                <b>Pasta térmica:</b> cada cierto tiempo es aconsejable cambiar la pasta térmica de la CPU de tu PC.
+                Este proceso tampoco es demasiado complicado, pero si es delicado, así que si no estás muy seguro no te
+                aconsejo hacerlo.<br>
+            </li>
+            <li>
+                <b>Aspiradora:</b> también te podría venir bien una aspiradora de pequeño tamaño, como por ejemplo una
+                de mano a baja potencia, para quitar las capas más gruesas de polvo. No te aconsejo usar un secador, y
+                mucho menos con aire caliente. Esto expandirá el polvo y ensuciará más que otra cosa.<br>
+            </li>
+        </ul><br>
 
-    <p>
         <h2><b>¿Cómo limpiar una PC de escritorio paso a paso?</b></h2>
-        Bien, una vez tenemos todo lo que necesitamos a mano, llegó el momento de limpiar nuestra PC por dentro. Si nunca has abierto tu PC y hace tiempo que lo tienes, prepárate para lo peor. Pero no te preocupes, pues después de este proceso va a quedar como nuevo. Vamos a por el paso a paso.<br><br>
-    </p>
 
-    <ol>
-    <li>
-        <b>Desconecta el PC de la corriente:</b> apaga el ordenador y desconéctalo totalmente de la corriente. Nunca abras tu PC sin haberlo desconectado, ni mucho menos toques ningún componente, ya que puedes dañarlo e incluso llegar a recibir una descarga eléctrica.<br><br>
-    </li>
-    <li>
-        <b>Pulsera antiestática:</b> si tienes una pulsera antiestática, es hora de que te la pongas, conectando la pinza a una superficie metálica. Si no la tienes, antes de empezar toca una superficie metálica durante unos segundos.<br><br>
-    </li>
-    <li>
-        <b>Mesa:</b> desconecta todos los periféricos y cables y pon tu torre encima de una mesa limpia y despejada. Antes de abrirlo puedes limpiar el exterior con el paño atrapa polvo.<br><br>
-    </li>
-    <li>
-        <b>Abrir:</b> utiliza tu destornillador para abrir la tapa lateral derecha de tu PC (guarda los tornillos en un lugar seguro). Algunas torres incorporan unas roscas que se pueden girar con los dedos. Después, desliza la tapa con suavidad hacia la izquierda. Las tripas de tu PC, con polvo incluido, deberían quedar al descubierto.<br><br>
-    </li>
-    <li>
-        <b>Primera pasada:</b> lo primero que deberás hacer es utilizar el paño para quitar el polvo que se ve a simple vista, como por ejemplo en la base de la torre o alrededor de los cables. Aquí también puedes utilizar la aspiradora de mano.<br><br>
-    </li>
-    <li>
-        <b>Segunda pasada:</b> seguidamente utiliza el bote de aire comprimido para empezar a sacar polvo de los rinconcitos. Si ves que los cables te molestan, apártalos con cuidado o incluso puedes desenchufarlos. Eso sí, apunta muy bien donde iban. Puedes hacerte un pequeño esquema.<br><br>
-    </li>
-    <li>
-        <b>Tercera pasada:</b> hora de utilizar tu pincel/brocha. Con este ya vas a ir al detalle, como por ejemplo en el interior de los ventiladores, placa base, tarjeta gráfica, fuente de alimentación, disco duro, RAM… Hazlo con paciencia, ayudándote del aire comprimido.<br><br>
-    </li>
-    <li>
-        <b>Alcohol</b>: a estas alturas el polvo ya debería haber desaparecido por completo. Lo siguiente será desconectar los componentes uno a uno para limpiar las ranuras de conexión, tanto de la placa base como de los propios componentes. Utiliza el alcohol isopropílico y el aire comprimido para dejarlas bien brillantes.<br><br>
-    </li>
-    <li>
-        <b>Pasta térmica:</b> si te animas a cambiar la pasta térmica, este es un buen momento. Retira el ventilador de la CPU y limpia la pasta térmica antigua con alcohol, tanto del procesador como del ventilador. Cuando esté seco, aplica la nueva pasta térmica. Ojo una gota del tamaño de un guisante en el centro del procesador (sin pasarte). Coloca el disipador de nuevo y listo.<br><br>
-    </li>
-    <li>
-        <b>Cerrar:</b> con tu pc limpito, vuelve a dejar todos los cables y componentes tal y como estaban. Vuelve a colocar la tapa lateral y enchufar todos los dispositivos externos.<br><br>
-    </li>
-    </ol>
+        <p>
+            Bien, una vez tenemos todo lo que necesitamos a mano, llegó el momento de limpiar nuestra PC por dentro. Si
+            nunca has abierto tu PC y hace tiempo que lo tienes, prepárate para lo peor. Pero no te preocupes, pues
+            después
+            de este proceso va a quedar como nuevo. Vamos por el paso a paso.<br>
+        </p>
 
-    <p>
-        Completada la limpieza, llegó el momento mágico. Si todo ha ido bien, tu ordenador arrancará de una forma mucho más ligera y sutil, sin apenas ruido. Si es así, es que lo has hecho bien. A continuación, revisa que todo funcione correctamente y disfruta de un ordenador más rápido.<br><br>
-    </p>
+        <img class="image2" src="assets/vid/vid1.gif" alt="gif limpieza de pc" width="600">
 
-    <img src="/assets/img/imagen3.png" alt="finalizacion de limpieza" width="500"><br><br>
+        <ol>
+            <li>
+                <b>Desconecta la PC de la corriente:</b> apaga el ordenador y desconéctalo totalmente de la corriente.
+                Nunca abras tu PC sin haberlo desconectado, ni mucho menos toques ningún componente, ya que puedes
+                dañarlo e incluso llegar a recibir una descarga eléctrica.<br>
+            </li>
+            <li>
+                <b>Pulsera antiestática:</b> si tienes una pulsera antiestática, es hora de que te la pongas, conectando
+                la pinza a una superficie metálica. Si no la tienes, antes de empezar toca una superficie metálica
+                durante unos segundos.<br>
+            </li>
+            <li>
+                <b>Mesa:</b> desconecta todos los periféricos y cables y pon tu torre encima de una mesa limpia y
+                despejada. Antes de abrirlo puedes limpiar el exterior con el paño atrapa polvo.<br>
+            </li>
+            <li>
+                <b>Abrir:</b> utiliza tu destornillador para abrir la tapa lateral derecha de tu PC (guarda los
+                tornillos en un lugar seguro). Algunas torres incorporan unas roscas que se pueden girar con los dedos.
+                Después, desliza la tapa con suavidad hacia la izquierda. Las tripas de tu PC, con polvo incluido,
+                deberían quedar al descubierto.<br>
+            </li>
+            <li>
+                <b>Primera pasada:</b> lo primero que deberás hacer es utilizar el paño para quitar el polvo que se ve a
+                simple vista, como por ejemplo en la base de la torre o alrededor de los cables. Aquí también puedes
+                utilizar la aspiradora de mano.<br>
+            </li>
+            <li>
+                <b>Segunda pasada:</b> seguidamente utiliza el bote de aire comprimido para empezar a sacar polvo de los
+                rinconcitos. Si ves que los cables te molestan, apártalos con cuidado o incluso puedes desenchufarlos.
+                Eso sí, apunta muy bien donde iban. Puedes hacerte un pequeño esquema.<br>
+            </li>
+            <li>
+                <b>Tercera pasada:</b> hora de utilizar tu pincel/brocha. Con este ya vas a ir al detalle, como por
+                ejemplo en el interior de los ventiladores, placa base, tarjeta gráfica, fuente de alimentación, disco
+                duro, RAM… Hazlo con paciencia, ayudándote del aire comprimido.<br>
+            </li>
+            <li>
+                <b>Alcohol</b>: a estas alturas el polvo ya debería haber desaparecido por completo. Lo siguiente será
+                desconectar los componentes uno a uno para limpiar las ranuras de conexión, tanto de la placa base como
+                de los propios componentes. Utiliza el alcohol isopropílico y el aire comprimido para dejarlas bien
+                brillantes.<br>
+            </li>
+            <li>
+                <b>Pasta térmica:</b> si te animas a cambiar la pasta térmica, este es un buen momento. Retira el
+                ventilador de la CPU y limpia la pasta térmica antigua con alcohol, tanto del procesador como del
+                ventilador. Cuando esté seco, aplica la nueva pasta térmica. Ojo una gota del tamaño de un guisante en
+                el centro del procesador (sin pasarte). Coloca el disipador de nuevo y listo.<br>
+            </li>
+            <li>
+                <b>Cerrar:</b> con tu pc limpito, vuelve a dejar todos los cables y componentes tal y como estaban.
+                Vuelve a colocar la tapa lateral y enchufar todos los dispositivos externos.<br>
+            </li>
+        </ol>
 
-    <p>
+        <p>
+            Completada la limpieza, llegó el momento mágico. Si todo ha ido bien, tu ordenador arrancará de una forma
+            mucho más ligera y sutil, sin apenas ruido. Si es así, es que lo has hecho bien. A continuación, revisa que
+            todo funcione correctamente y disfruta de un ordenador más rápido.<br>
+        </p>
+
+        <img class="image" src="/assets/img/imagen3.png" alt="finalizacion de limpieza" width="600">
+
         <h2><b>¿Cómo limpiar los periféricos de una PC?</b></h2>
-        Si ya que te has puesto quieres hacer una limpieza completa, te aconsejo también limpiar el resto de periféricos de tu PC. Uno de los más susceptibles a ensuciarse es el teclado, ya que además de polvo, se pueden introducir todo tipo de cosas entre las teclas (las migas de las patatas fritas acaban en los teclados, eso es así).<br><br>
-        Para limpiar el teclado, te aconsejo desconectarlo de la PC y ponerlo boca abajo, sacudiéndolo suavemente para sacar los restos de suciedad más grandes. Después, y con ayuda del aire comprimido y un pincel/cepillo de dientes, limpia el espacio entre tecla y tecla una a una. Si es mecánico, te aconsejo encarecidamente quitar todas las teclas para limpiarlo.<br><br>
-        En el caso del monitor, y aunque no afecta a su rendimiento, te aconsejo también limpiarlo con mucho cuidado. Puedes utilizar un paño o gamuza de microfibra impregnada con un poco de alcohol isopropílico. Limpia la pantalla con movimientos suaves, circulares y sin aplicar mucha presión.<br><br>
-        Otros periféricos, como el ratón, se pueden limpiar fácilmente de la misma forma. Con tu PC limpio a nivel físico, también te recomiendo hacer una limpieza a nivel de software, en este artículo te cuento cómo hacerlo. Tras eso, estoy seguro de que el rendimiento de tu PC se incrementará de manera notable.<br><br>
-    </p>
+        <p>
+            Si ya que te has puesto quieres hacer una limpieza completa, te aconsejo también limpiar el resto de
+            periféricos
+            de tu PC. Uno de los más susceptibles a ensuciarse es el teclado, ya que además de polvo, se pueden
+            introducir
+            todo tipo de cosas entre las teclas (las migas de las patatas fritas acaban en los teclados, eso es
+            así).<br>
+            Para limpiar el teclado, te aconsejo desconectarlo de la PC y ponerlo boca abajo, sacudiéndolo suavemente
+            para
+            sacar los restos de suciedad más grandes. Después, y con ayuda del aire comprimido y un pincel/cepillo de
+            dientes, limpia el espacio entre tecla y tecla una a una. Si es mecánico, te aconsejo encarecidamente quitar
+            todas las teclas para limpiarlo.<br>
+            En el caso del monitor, y aunque no afecta a su rendimiento, te aconsejo también limpiarlo con mucho
+            cuidado.
+            Puedes utilizar un paño o gamuza de microfibra impregnada con un poco de alcohol isopropílico. Limpia la
+            pantalla con movimientos suaves, circulares y sin aplicar mucha presión.<br>
+            Otros periféricos, como el ratón, se pueden limpiar fácilmente de la misma forma. Con tu PC limpio a nivel
+            físico, también te recomiendo hacer una limpieza a nivel de software, en este artículo te cuento cómo
+            hacerlo.
+            Tras eso, estoy seguro de que el rendimiento de tu PC se incrementará de manera notable.<br>
+        </p>
+
+    </article>
+
+    <footer class="footer">
+        <p>
+            Nuestras Redes
+            <a href="https://www.instagram.com/matiasgonzalezds" target="_blank"><img src="assets/img/instalogo.png"
+                    alt="logo de instagram" width="50"></a>
+
+            <a href="https://www.facebook.com/MatiasAndresGonzalez" target="_blank"><img src="assets/img/facelogo.png"
+                    alt="logo de facebook" width="29"></a>
+        </p>
+
+        <p>derechos recervados &copy; 2025</p>
+    </footer>
 
 </body>
+
 </html>

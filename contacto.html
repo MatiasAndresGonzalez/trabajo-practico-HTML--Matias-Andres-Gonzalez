@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="author" content="Matias Gonzalez">
+    <meta name="description" content="Esta es mi primera página web">
+    <meta name="keywords" content="tutorial, limpieza de pc, computadora de escritorio, tecnología">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(229, 229, 229), rgb(190, 249, 207));
+            padding: 0;
+            margin: 0;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            color: #92a4ff;
+        }
+
+        label {
+            margin: 15px;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 5px 15px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 20%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        input[type=reset] {
+            width: 20%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=reset]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #b8e5d1;
+            color: #838383;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="title">
+        Aprende Más
+    </h1>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/img/svgblanco.svg" alt="logo de pagina">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tabla.html">Paso a Paso</a></li>
+                <li><a href="aidiovisuales.html">Audiovisuales</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn"><button>Aprende Más</button></a>
+    </header>
+    
+    <h2>Completa el formulario para recibir nuestro contenido</h2>
+
+    <form target="_blank">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" maxlength="45"
+            minlength="5" pattern="[a-zA-Z]{1, 45}" required><br><br>
+
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido completo" maxlength="45"
+            minlength="5" pattern="[a-zA-Z]{1, 45}" required><br><br>
+
+        <label for="tutorial">Selecciona el contenido que quieres recibir</label><br>
+        <input type="radio" name="tutorial" value="Limpieza de PC">Limpieza de PC
+        <input type="radio" name="tutorial" value="Limpieza de Laptop" required>Limpieza de Laptop
+        <input type="radio" name="tutorial" value="Conocer Otros Tutoriales" required>Conocer Otros Tutoriales
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Escribe aquí tu email" required>
+        <br><br>
+        <textarea name="comentario" id="comentario" placeholder="Puedes desjarnos un comentario sobre nuestro contenido" rows="4"></textarea>
+        <br><br>
+        <div class="centrado">
+            <input type="submit" value="Enviar">
+        </div>
+        <div class="centrado">
+            <input type="reset" value="Resetear">
+        </div>
+
+    </form>
+
+    <footer class="footer">
+        <p>
+            Nuestras Redes
+            <a href="https://www.instagram.com/matiasgonzalezds" target="_blank"><img src="assets/img/instalogo.png"
+                    alt="logo de instagram" width="50"></a>
+
+            <a href="https://www.facebook.com/MatiasAndresGonzalez" target="_blank"><img src="assets/img/facelogo.png"
+                    alt="logo de facebook" width="29"></a>
+        </p>
+
+        <p>derechos recervados &copy; 2025</p>
+    </footer>
+
+</body>
+
+</html>

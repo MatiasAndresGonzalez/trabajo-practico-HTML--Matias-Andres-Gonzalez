@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="author" content="Matias Gonzalez">
+    <meta name="description" content="Esta es mi primera página web">
+    <meta name="keywords" content="tutorial, limpieza de pc, computadora de escritorio, tecnología">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(229, 229, 229), rgb(190, 249, 207));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 250px;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer {
+            background-color: #b8e5d1;
+            color: #838383;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="title">
+        Audiovisuales
+    </h1>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/img/svgblanco.svg" alt="logo de pagina">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tabla.html">Paso a Paso</a></li>
+                <li><a href="aidiovisuales.html">Audiovisuales</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn"><button>Aprende Más</button></a>
+    </header>
+
+    <h2>Video secillo de como limpiar tu PC por dentro</h2>
+    
+    <div class="centrado">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RYO1u6jlKZg?si=FrDkEj55rvZPIryd"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+    </div>
+    
+    <h2>Puedes escuchar esta agradable música mientras realizas la limpieza</h2>
+
+    <div class="centrado">
+    <audio src="assets/audio/musica.mp3" autoplay controls muted></audio>
+    </div>
+    
+    <h2>Muestra de cómo puede estar tu PC</h2>
+
+    <section>
+        <div class="gallery">
+            <a href="assets/img/limp1.jpg" target="_blank"><img src="assets/img/limp1.jpg" alt="limpieza de la PC"></a>
+            <div class="desc">abriendo PC</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp2.jpg" target="_blank"><img src="assets/img/limp2.jpg" alt="limpieza de la PC"></a>
+            <div class="desc">Descubriendo el polvo</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp3.jpg" target="_blank"><img src="assets/img/limp3.jpg" alt="limpieza de la PC"
+                    height="200"></a>
+            <div class="desc">Componente empolvado</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp4.jpg" target="_blank"><img src="assets/img/limp4.jpg" alt="limpieza de la PC" height="250"></a>
+            <div class="desc">Limpieza con pincel</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp5.jpg" target="_blank"><img src="assets/img/limp5.jpg" alt="limpieza de la PC"></a>
+            <div class="desc">Uso del aire comprimido</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp6.jpg" target="_blank"><img src="assets/img/limp6.jpg" alt="limpieza de la PC"
+                    height="210"></a>
+            <div class="desc">Retirando componentes</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp7.jpg" target="_blank"><img src="assets/img/limp7.jpg" alt="limpieza de la PC"
+                    height="220"></a>
+            <div class="desc">Colocado de pasta térmica</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/limp8.jpg" target="_blank"><img src="assets/img/limp8.jpg" alt="limpieza de la PC"></a>
+            <div class="desc">Rearmado de PC</div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>
+            Nuestras Redes
+            <a href="https://www.instagram.com/matiasgonzalezds" target="_blank"><img src="assets/img/instalogo.png"
+                    alt="logo de instagram" width="50"></a>
+
+            <a href="https://www.facebook.com/MatiasAndresGonzalez" target="_blank"><img src="assets/img/facelogo.png"
+                    alt="logo de facebook" width="29"></a>
+        </p>
+
+        <p>derechos recervados &copy; 2025</p>
+    </footer>
+
+</body>
+
+</html>
